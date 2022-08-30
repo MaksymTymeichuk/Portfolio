@@ -17,11 +17,9 @@ body{
     scroll-behavior: smooth;
 }
 .text{
-
-    background: #000;
     color:#C9C9C9;
     font-size: 20px;
-    margin-right:60px;
+    margin-right:90px;
     margin-top:55px;
     font-family: 'Russo One', sans-serif;
     font-weight: 400px;
@@ -145,7 +143,8 @@ font-family: 'Russo One', sans-serif;
     width: 649px;
     height: 724px;
     margin-top:46px;
-    margin-right:-190px;
+    margin-left:-10px
+
 
 }
 .photo_bg{
@@ -190,7 +189,9 @@ font-family: 'Russo One', sans-serif;
 .portfolio{
     display:flex;
     align-items:center;
+    margin-top:50px;
     flex-direction:column;
+    font-family: 'Russo One', sans-serif;
     margin-top:120px;
     width: 1194px;
     height: 578px;
@@ -214,10 +215,12 @@ img{
 .img_text_frame{
     display:flex;
     margin-top:-100px;
-    justify-content:space-between;
-    width: 1000px;
+    margin-right:45px;
+    justify-content:space-evenly;
+    width: 1200px;
     height: 100px;
     margin-left:40px;
+
 
 
 }
@@ -234,4 +237,69 @@ img{
     width: 1300px;
     height: 500px;
 
+}
+.more_info{
+    display:flex;
+    align-items:center;
+    color:white;
+    margin-top:50px;
+    font-size:30px;
+    width: 1200px;
+    height: 100px;
+    font-family: 'Russo One', sans-serif;
+    gap:0px 40px;
+}
+.github{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 250px;
+    height: 60px;
+    background: #414141;
+    border-radius:10px;
+    transition: 1s all;
+}
+.github:hover{    
+    box-shadow: 10px 10px 100px white;
+    background:#FDEEDC;
+    
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+a:hover{
+    color:#F1A661;
+}
+.freelance{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 250px;
+    background: #7996FC;
+    height: 60px;
+    border-radius:10px;
+    transition: 1s all;
+    cursor:pointer;
+}
+.freelance:hover{    
+    box-shadow: 10px 10px 100px white;
+    background:#F1A661;
+    color:#CFDEED;
+}
+.figma{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 250px;
+    background: #414141;
+    height: 60px;
+    border-radius:10px;
+    transition: 1s all;
+    cursor:pointer;
+}
+.figma:hover{    
+    box-shadow: 10px 10px 100px white;
+    background:#CFDEED;
+    color:#F1A661;
 }
