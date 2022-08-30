@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+
+.main_frame{
+    width: 1440px;
+    height: 2683px;
+    margin:0 auto;
+    background:#2D2D2D;
+}
+body{
+    margin:0;
+}
+.text{
+    color:#C9C9C9;
+    font-size: 20px;
+    margin-right:60px;
+    margin-top:26px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400px;
+}
+.text_frame{
+    display:flex;
+    width: 451px;
+    height: 29px;
+    margin-left:495px;
+
+}
+
+.main_info{
+    display:flex;
+    justify-content:flex-end;
+    width: 1247px;
+    height: 724px;
+    margin-left: 85px;
+    margin-top:46px;
+}
+.global_info{
+    display:flex;
+    justify-content:flex-end;
+    width: 793px;
+    height: 458px;
+    margin-top:102px;
+
+}
+.title_text{
+    position:absolute;
+    display:flex;
+    flex-wrap:wrap;
+    width: 449px;
+    height: 228px;
+    margin-left:271px;
+    margin-top:30px;
+    font-size:56px;
+    font-family: 'Jost', sans-serif;
+    color:white;
+}
+.small_func{
+    display:flex;
+    flex-wrap:wrap;
+    width: 522px;
+    height: 140px;
+    position:absolute;
+
+    align-self:flex-end;
+
+}
+.hire{
+    display:flex;
+    align-items:center;
+    color:white;
+    justify-content:center;
+    width: 251px;
+    height: 60px;
+    background: #7996FC;
+    border-radius:10px;
+    font-family: 'Jost', sans-serif;
+    font-size:24px;
+    margin-right:20px;
+}
+.portf{
+    display:flex;
+    align-items:center;
+    color:white;
+    justify-content:center;
+    width: 251px;
+    height: 60px;
+    background: #414141;
+    border-radius:10px;
+    font-family: 'Jost', sans-serif;
+    font-size:24px;
+}
+.telegram{
+display:flex;
+justify-content:center;
+align-items:center;
+width: 522px;
+height: 60px;
+color:white;
+background: #414141;
+align-self:flex-end;
+border-radius:10px;
+font-family: 'Jost', sans-serif;
+    font-size:24px;
+}
+.photo_frame{
+    display:flex;
+    justify-content:center;
+    width: 649px;
+    height: 724px;
+
+    margin-top:46px;
+    margin-right:0px;
+
+}
+.photo_bg{
+    background: #FFFFFF;
+    box-shadow:10px 10px 100px lightblue;
+    width: 440px;
+    height: 440px;
+    border-radius:100px;
+    rotate:45deg;
+    margin-top:148px;
+}
