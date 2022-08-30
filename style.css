@@ -1,29 +1,42 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
 
 .main_frame{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
     width: 1440px;
     height: 2683px;
+    text-align:center;
     margin:0 auto;
     background:#2D2D2D;
 }
 body{
     margin:0;
+    background:#2D2D2D;
+    scroll-behavior: smooth;
 }
 .text{
+
+    background: #000;
     color:#C9C9C9;
     font-size: 20px;
     margin-right:60px;
     margin-top:55px;
-    font-family: 'Jost', sans-serif;
+    font-family: 'Russo One', sans-serif;
     font-weight: 400px;
+    transition:1s all;
+    cursor:pointer;
+}
+.text:hover{
+    color:white;
 }
 .text_frame{
+    margin:0 auto;
     display:flex;
     width: 451px;
     height: 29px;
-    margin-left:495px;
+
 
 }
 
@@ -51,8 +64,8 @@ body{
     height: 228px;
     margin-right:70px;
     margin-top:30px;
-    font-size:56px;
-    font-family: 'Jost', sans-serif;
+    font-size:45px;
+    font-family: 'Russo One', sans-serif;
     color:white;
 }
 .small_func{
@@ -74,9 +87,16 @@ body{
     height: 60px;
     background: #7996FC;
     border-radius:10px;
-    font-family: 'Jost', sans-serif;
+    font-family: 'Russo One', sans-serif;
     font-size:24px;
     margin-right:20px;
+    transition:1s all;
+    cursor:pointer;
+}
+.hire:hover{    
+    box-shadow: 10px 10px 100px white;
+    background:#F1A661;
+    color:#FDEEDC;
 }
 .portf{
     display:flex;
@@ -87,8 +107,17 @@ body{
     height: 60px;
     background: #414141;
     border-radius:10px;
-    font-family: 'Jost', sans-serif;
+    font-family: 'Russo One', sans-serif;
     font-size:24px;
+    transition: 1s all;
+    cursor:pointer;
+}
+.portf:hover{
+    
+    box-shadow: 10px 10px 100px white;
+    background:#FDEEDC;
+    color:#E38B29;
+
 }
 .telegram{
 display:flex;
@@ -97,11 +126,18 @@ align-items:center;
 width: 522px;
 height: 60px;
 color:white;
+cursor:pointer;
 background: #414141;
 align-self:flex-end;
 border-radius:10px;
-font-family: 'Jost', sans-serif;
+font-family: 'Russo One', sans-serif;
     font-size:24px;
+    transition: 1s all;
+}
+.telegram:hover{
+    box-shadow: 10px 10px 100px white;
+    background:#FDEEDC;
+    color:#E38B29;
 }
 .photo_frame{
     display:flex;
@@ -122,6 +158,9 @@ font-family: 'Jost', sans-serif;
     margin-top:148px;
 }
 .some_info{
+    display:flex;
+    flex-direction:column;
+
     width: 1193px;
     height: 316px;
     margin:0 auto;
@@ -130,8 +169,7 @@ font-family: 'Jost', sans-serif;
     font-size:42px;
 }
 .top_title{
-    display:flex;
-    flex-wrap:wrap;
+    display:block;
     width: 264px;
     height: 52px;
     font-weight:300px;
@@ -141,9 +179,60 @@ font-family: 'Jost', sans-serif;
     
 }
 .main_text{
-    font-family: 'Jost', Italic;
+    display:flex;
+    justify-content:center;
+    font-family: 'Russo One', sans-serif;
     margin-top:10px;
     font-weight:500px;
     font-size:42px;
     line-height: 60.69px;
+}
+.portfolio{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    margin-top:120px;
+    width: 1194px;
+    height: 578px;
+
+
+}
+.title{
+    align-self:flex-start;
+
+    color:white;
+    font-weight:700px;
+    font-size:48px;
+}
+img{
+    width: 354px;
+    height: 254px;
+    border-radius: 5px 0px;
+    
+    border: 10px double darkcyan;
+}
+.img_text_frame{
+    display:flex;
+    margin-top:-100px;
+    justify-content:space-between;
+    width: 1000px;
+    height: 100px;
+    margin-left:40px;
+
+
+}
+.img_text{
+    font-size: 35px;
+    color:white;
+}
+.img_container{
+    box-shadow: inset 60px 100px 100px white;
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    align-items:center;
+    background:#2D2D2D;
+    width: 1300px;
+    height: 500px;
+
 }
