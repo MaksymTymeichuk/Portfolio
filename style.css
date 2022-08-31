@@ -31,12 +31,9 @@ body{
     color:white;
 }
 .text_frame{
-
     display:flex;
     width: 700px;
     height: 100px;
-
-
 }
 
 .main_info{
@@ -144,9 +141,7 @@ font-family: 'Russo One', sans-serif;
     width: 649px;
     height: 724px;
     margin-top:46px;
-    margin-left:-10px
-
-
+    margin-left:-10px;
 }
 .photo_bg{
     display:flex;
@@ -163,7 +158,6 @@ font-family: 'Russo One', sans-serif;
 .some_info{
     display:flex;
     flex-direction:column;
-
     width: 1193px;
     height: 316px;
     margin:0 auto;
@@ -371,4 +365,58 @@ a:hover{
 .img{
     rotate:315deg;
     border-radius: 100%;
+}
+@media(max-width: 600px){
+    .main_frame{
+        display:flex;
+        justify-content:center;
+       width: 600px;
+    }
+    .text{
+        margin-right:5px;
+        font-size:20px;
+
+    }
+    .text_frame{
+        display:flex;
+        justify-content:space-evenly;
+        width: 600px;
+        height: 100px;
+    }
+    .main_info{
+        display:flex;
+        justify-content:center;
+        width: 500px;
+        height: 760px;
+        margin-left:50px;
+    }
+    .photo_frame{
+        display:flex;
+        justify-content:center;
+        width: 600px;
+        height: 724px;
+        margin-top:500px;
+    }
+    .photo_bg{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background: #FFFFFF;
+        box-shadow:10px 10px 100px lightblue;
+        width: 400px;
+        height: 400px;
+        border-radius:100px;
+        rotate:45deg;
+        margin-top:148px;
+        margin-left:50px;
+    }
+    .some_info{
+        display:flex;
+        flex-direction:column;
+        width: 600px;
+        height: 316px;
+        margin-top:400px;
+ 
+        transform:scale(0.7);
+    }
 }
