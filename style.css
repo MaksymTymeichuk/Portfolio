@@ -364,348 +364,81 @@ a:hover{
     border-radius: 100%;
 }
 @media(min-width: 600px){
-    body{
-        font-size:20px;
+    .main_frame{
+        width: 1440px;
     }
-    .text{
-        font-size: 20px;
-        margin-top:55px;
-        font-weight: 400px;
-    }
+
     .text_frame{
-        display:flex;
-        width: 700px;
-        height: 100px;
+        font-size:50px;
     }
     
     .main_info{
         display:flex;
-        justify-content:flex-end;
-        width: 1247px;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        width: 100%;
         height: 724px;
-        margin-left: 85px;
-        margin-top:46px;
-    }
-    .global_info{
-        display:flex;
-        justify-content:flex-end;
-        width: 793px;
-        height: 458px;
-        margin-top:102px;
+    
     
     }
+    .global_info{
+        width: 500px;
+        align-self:flex-end;
+        margin-right:200px;
+        height: 600px;
+    }
     .title_text{
-
-        display:flex;
-        flex-wrap:wrap;
-        width: 449px;
         height: 228px;
-        margin-right:70px;
-        margin-top:30px;
-        font-size:45px;
-        font-family: 'Russo One', sans-serif;
-        color:white;
+        margin-top:100px;
     }
     .small_func{
         display:flex;
         flex-wrap:wrap;
-        width: 522px;
+        justify-content:space-evenly;
+        width: 500px;
+        margin-right:200px;
         height: 140px;
-
-    
         align-self:flex-end;
+        gap: 10px 10px;
     
     }
     .hire{
-        display:flex;
-        align-items:center;
-        color:white;
-        justify-content:center;
-        width: 251px;
-        height: 60px;
-        background: #7996FC;
-        border-radius:10px;
-        font-family: 'Russo One', sans-serif;
-        font-size:24px;
-        margin-right:20px;
-        transition:1s all;
-        cursor:pointer;
-    }
-    .hire:hover{    
-        box-shadow: 10px 10px 100px white;
-        background:#F1A661;
-        color:#FDEEDC;
+        width: 240px;
     }
     .portf{
-        display:flex;
-        align-items:center;
-        color:white;
-        justify-content:center;
-        width: 251px;
-        height: 60px;
-        background: #414141;
-        border-radius:10px;
-        font-family: 'Russo One', sans-serif;
-        font-size:24px;
-        transition: 1s all;
-        cursor:pointer;
-    }
-    .portf:hover{
-        
-        box-shadow: 10px 10px 100px white;
-        background:#FDEEDC;
-        color:#E38B29;
-    
-    }
-    .telegram{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    width: 522px;
-    height: 60px;
-    color:white;
-    cursor:pointer;
-    background: #414141;
-    align-self:flex-end;
-    border-radius:10px;
-    font-family: 'Russo One', sans-serif;
-        font-size:24px;
-        transition: 1s all;
-    }
-    .telegram:hover{
-        box-shadow: 10px 10px 100px white;
-        background:#FDEEDC;
-        color:#E38B29;
-    }
-    .photo_frame{
-        display:flex;
-        justify-content:center;
-        width: 649px;
-        height: 724px;
-        margin-top:46px;
-        margin-left:-10px;
+        width: 240px;
     }
     .photo_bg{
-        display:flex;
-        justify-content:center;
-        align-items:center;
-        background: #FFFFFF;
-        box-shadow:10px 10px 100px lightblue;
-        width: 440px;
-        height: 440px;
-        border-radius:100px;
-        rotate:45deg;
-        margin-top:148px;
+     align-self:flex-start;
+     margin-left:-650px;
+     margin-top:-500px;
+    
     }
     .some_info{
         display:flex;
-        flex-direction:column;
-        width: 1193px;
+
+        width: 800px;
         height: 316px;
-        margin:0 auto;
-        margin-top:70px;
+        margin:0;
         color:white;
-        font-size:42px;
-    }
-    .top_title{
-        display:block;
-        width: 264px;
-        height: 52px;
-        font-weight:300px;
-        font-size:36px;
-        color: #C9C9C9;
-        
-        
-    }
-    .main_text{
-        display:flex;
-        justify-content:center;
-        font-family: 'Russo One', sans-serif;
-        margin-top:10px;
-        font-weight:500px;
-        font-size:42px;
-        line-height: 60.69px;
-    }
-    .portfolio{
-        display:flex;
-        align-items:center;
-        margin-top:50px;
-        flex-direction:column;
-        font-family: 'Russo One', sans-serif;
-        margin-top:120px;
-        width: 1194px;
-        height: 578px;
-    
     
     }
+
     .title{
+        display:flex;
         align-self:flex-start;
-    
         color:white;
         font-weight:700px;
         font-size:48px;
+        margin-top:90px;
+        margin-bottom:30px;
     }
     img{
-        width: 354px;
+        width: 500px;
         height: 254px;
-        border-radius: 10px;
-        box-shadow:0px 0px 100px lightblue;
-        border: 10px double white;
-    }
-    .img_text_frame{
-        display:flex;
-        margin-top:-100px;
-        margin-right:45px;
-        justify-content:space-evenly;
-        width: 1200px;
-        height: 100px;
-        margin-left:40px;
-    
-    
-    
-    }
-    .img_text{
-        font-size: 35px;
-        color:white;
-    }
-    .img_container{
-        display:flex;
-        justify-content:center;
-        gap:40px;
-        align-items:center;
-        background:#2D2D2D;
-        width: 1300px;
-        height: 500px;
-    
     }
     .more_info{
-        display:flex;
-        align-items:center;
-        color:white;
-        margin-top:50px;
-        font-size:30px;
-        width: 1200px;
-        height: 100px;
-        font-family: 'Russo One', sans-serif;
-        gap:0px 40px;
-    }
-    .github{
-        display:flex;
-        justify-content:center;
-        align-items:center;
-        width: 250px;
-        height: 60px;
-        background: #414141;
-        border-radius:10px;
-        transition: 1s all;
-    }
-    .github:hover{    
-        box-shadow: 10px 10px 100px white;
-        background:#FDEEDC;
-        
-    }
-    a{
-        text-decoration:none;
-        color:white;
-    }
-    a:hover{
-        color:#F1A661;
-    }
-    .freelance{
-        display:flex;
-        justify-content:center;
-        align-items:center;
-        width: 250px;
-        background: #7996FC;
-        height: 60px;
-        border-radius:10px;
-        transition: 1s all;
-        cursor:pointer;
-    }
-    .freelance:hover{    
-        box-shadow: 10px 10px 100px white;
-        background:#F1A661;
-        color:#CFDEED;
-    }
-    .figma{
-        display:flex;
-        justify-content:center;
-        align-items:center;
-        width: 250px;
-        background: #414141;
-        height: 60px;
-        border-radius:10px;
-        transition: 1s all;
-        cursor:pointer;
-    }
-    .figma:hover{    
-        box-shadow: 10px 10px 100px white;
-        background:#CFDEED;
-        color:#F1A661;
-    }
-    
-    .references{
-        display:flex;
-        width: 1200px;
-        justify-content:flex-start;
-        height: 289px;
-        margin-top:100px;
-        color:white;
-        font-size: 35px;
-        gap:0px 0px;
-        font-family: 'Russo One', sans-serif;
-    }
-    .ref_text{
-        width: 200px;
-        height: 40px;
-    
-    }
-    .ref{
-        margin-left:200px;
-        align-self:flex-end;
-        width: 360px;
-        height: 180px;
-        background: #414141;
-        border-radius:10px;
-        cursor:pointer;
-        transition:all 1s;
-    }
-    .ref:hover{
-        box-shadow: 0px 0px 100px white;
-    }
-    .plus{
-        font-size: 80px;
-        transition:1.5s all;
-    }
-    .ref:hover .plus{
-        rotate:360deg;
-        font-size:100px;
-    }
-    .page_end{
-        display:flex;
-        justify-content:center;
-        width: 1440px;
-        height: 200px;
-        background: #414141;
-        border-radius: 20px 20px 0px 0px;
-        margin-top:100px;
-    }
-    .left_info{
-        display:flex;
-        width: 210px;
-        height: 200px;
-        color:white;
-        font-size:24px;
-        flex-direction:column;
-        justify-content:space-around;
-    }
-    .text1{
-        margin-top:10px;
-        font-family: 'Russo One', sans-serif;
-        margin: 0 auto;
-    }
-    .img{
-        rotate:315deg;
-        border-radius: 100%;
+        margin-top:900px;
     }
 }
