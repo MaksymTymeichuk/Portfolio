@@ -15,10 +15,11 @@ body{
     margin:0;
     background:#2D2D2D;
     scroll-behavior: smooth;
+    font-size:30px;
 }
 .text{
     color:#C9C9C9;
-    font-size: 10px;
+    font-size: 0.5em;
     margin-top:55px;
     font-family: 'Russo One', sans-serif;
     font-weight: 400px;
@@ -37,11 +38,13 @@ body{
 
 .main_info{
     display:flex;
-    justify-content:flex-end;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
     width: 100%;
     height: 724px;
-    margin-left: 85px;
-    margin-top:px;
+
+
 }
 .global_info{
     display:flex;
@@ -52,24 +55,20 @@ body{
 
 }
 .title_text{
-    position:absolute;
     display:flex;
     flex-wrap:wrap;
-    width: 449px;
+    width: 100%;
     height: 228px;
-    margin-right:70px;
-    margin-top:30px;
-    font-size:45px;
+    font-size:1.5em;
     font-family: 'Russo One', sans-serif;
     color:white;
 }
 .small_func{
     display:flex;
     flex-wrap:wrap;
-    width: 522px;
+    justify-content:space-evenly;
+    width: 100%;
     height: 140px;
-    position:absolute;
-
     align-self:flex-end;
 
 }
@@ -78,13 +77,12 @@ body{
     align-items:center;
     color:white;
     justify-content:center;
-    width: 251px;
+    width: 230px;
     height: 60px;
     background: #7996FC;
     border-radius:10px;
     font-family: 'Russo One', sans-serif;
-    font-size:24px;
-    margin-right:20px;
+    font-size:0.9em;
     transition:1s all;
     cursor:pointer;
 }
@@ -98,17 +96,16 @@ body{
     align-items:center;
     color:white;
     justify-content:center;
-    width: 251px;
+    width: 230px;
     height: 60px;
     background: #414141;
     border-radius:10px;
     font-family: 'Russo One', sans-serif;
-    font-size:24px;
+    font-size:0.9em;
     transition: 1s all;
     cursor:pointer;
 }
 .portf:hover{
-    
     box-shadow: 10px 10px 100px white;
     background:#FDEEDC;
     color:#E38B29;
@@ -118,16 +115,15 @@ body{
 display:flex;
 justify-content:center;
 align-items:center;
-width: 522px;
+width: 100%;
 height: 60px;
 color:white;
 cursor:pointer;
 background: #414141;
-align-self:flex-end;
 border-radius:10px;
 font-family: 'Russo One', sans-serif;
-    font-size:24px;
-    transition: 1s all;
+font-size:0.9em;
+transition: 1s all;
 }
 .telegram:hover{
     box-shadow: 10px 10px 100px white;
@@ -137,10 +133,9 @@ font-family: 'Russo One', sans-serif;
 .photo_frame{
     display:flex;
     justify-content:center;
-    width: 649px;
-    height: 724px;
+    width: 100%;
+    height: 780px;
     margin-top:46px;
-    margin-left:-10px;
 }
 .photo_bg{
     display:flex;
@@ -148,28 +143,26 @@ font-family: 'Russo One', sans-serif;
     align-items:center;
     background: #FFFFFF;
     box-shadow:10px 10px 100px lightblue;
-    width: 440px;
-    height: 440px;
+    width: 340px;
+    height: 340px;
     border-radius:100px;
     rotate:45deg;
-    margin-top:148px;
 }
 .some_info{
     display:flex;
     flex-direction:column;
-    width: 1193px;
+    width: 100%;
     height: 316px;
-    margin:0 auto;
-    margin-top:70px;
+    margin-top:170px;
     color:white;
-    font-size:42px;
+
 }
 .top_title{
     display:block;
     width: 264px;
     height: 52px;
     font-weight:300px;
-    font-size:36px;
+    font-size:1.2em;
     color: #C9C9C9;
     
     
@@ -180,24 +173,23 @@ font-family: 'Russo One', sans-serif;
     font-family: 'Russo One', sans-serif;
     margin-top:10px;
     font-weight:500px;
-    font-size:42px;
+    font-size:0.8em;
     line-height: 60.69px;
 }
 .portfolio{
     display:flex;
-    align-items:center;
-    margin-top:50px;
     flex-direction:column;
+    align-items:center;
     font-family: 'Russo One', sans-serif;
-    margin-top:120px;
-    width: 1194px;
-    height: 578px;
+    margin-top:300px;
+    width: 100%;
+    height: 500px;
 
 
 }
 .title{
+    display:flex;
     align-self:flex-start;
-
     color:white;
     font-weight:700px;
     font-size:48px;
@@ -209,18 +201,7 @@ img{
     box-shadow:0px 0px 100px lightblue;
     border: 10px double white;
 }
-.img_text_frame{
-    display:flex;
-    margin-top:-100px;
-    margin-right:45px;
-    justify-content:space-evenly;
-    width: 1200px;
-    height: 100px;
-    margin-left:40px;
 
-
-
-}
 .img_text{
     font-size: 35px;
     color:white;
@@ -228,23 +209,36 @@ img{
 .img_container{
     display:flex;
     justify-content:center;
-    gap:40px;
+    flex-direction:column;
+    gap:40px 0;
     align-items:center;
     background:#2D2D2D;
-    width: 1300px;
-    height: 500px;
+    width: 100%;
+    height: 1000px;
 
 }
 .more_info{
     display:flex;
-    align-items:center;
+    align-content:center;
+    justify-content:center;
+    flex-wrap:wrap;
     color:white;
-    margin-top:50px;
-    font-size:30px;
-    width: 1200px;
-    height: 100px;
+    margin-top:650px;
+
+    font-size:0.8em;
+    width: 100%;
+    height: 300px;
     font-family: 'Russo One', sans-serif;
-    gap:0px 40px;
+    gap:10px 10px;
+
+}
+.see_more{
+    text-align: center;
+    line-height: 60px;
+    vertical-align: center;
+    width: 250px;
+    height: 60px;
+    font-size:0.8em;
 }
 .github{
     display:flex;
@@ -303,23 +297,23 @@ a:hover{
 
 .references{
     display:flex;
-    width: 1200px;
-    justify-content:flex-start;
+    width: 100%;
+    margin-top:50px;
+    justify-content:center;
+    align-items:center;
     height: 289px;
-    margin-top:100px;
     color:white;
-    font-size: 35px;
-    gap:0px 0px;
+    font-size: 1.1em;
     font-family: 'Russo One', sans-serif;
 }
 .ref_text{
+    align-self:flex-start;
     width: 200px;
     height: 40px;
 
 }
 .ref{
-    margin-left:200px;
-    align-self:flex-end;
+    position:absolute;
     width: 360px;
     height: 180px;
     background: #414141;
@@ -365,35 +359,14 @@ a:hover{
     rotate:315deg;
     border-radius: 100%;
 }
-@media(min-width: 1100px){
-    .main_frame{
-        display:flex;
-        justify-content:center;
-        flex-direction:column;
-        align-items:center;
-        width: 1440px;
-        height: 2800px;
-        text-align:center;
-        margin:0 auto;
-        background:#2D2D2D;
-    }
+@media(min-width: 600px){
     body{
-        margin:0;
-        background:#2D2D2D;
-        scroll-behavior: smooth;
+        font-size:20px;
     }
     .text{
-        color:#C9C9C9;
         font-size: 20px;
-        margin-right:90px;
         margin-top:55px;
-        font-family: 'Russo One', sans-serif;
         font-weight: 400px;
-        transition:1s all;
-        cursor:pointer;
-    }
-    .text:hover{
-        color:white;
     }
     .text_frame{
         display:flex;
@@ -418,7 +391,7 @@ a:hover{
     
     }
     .title_text{
-        position:absolute;
+
         display:flex;
         flex-wrap:wrap;
         width: 449px;
@@ -434,7 +407,7 @@ a:hover{
         flex-wrap:wrap;
         width: 522px;
         height: 140px;
-        position:absolute;
+
     
         align-self:flex-end;
     
