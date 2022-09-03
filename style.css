@@ -392,6 +392,7 @@ a:hover{
         height: 228px;
         margin-top:100px;
     }
+
     .small_func{
         display:flex;
         flex-wrap:wrap;
@@ -410,6 +411,8 @@ a:hover{
         width: 240px;
     }
     .photo_bg{
+        width: 440px;
+        height: 440px;
      align-self:flex-start;
      margin-left:-650px;
      margin-top:-500px;
@@ -420,7 +423,7 @@ a:hover{
 
         width: 800px;
         height: 316px;
-        margin:0;
+        margin-bottom:-100px;
         color:white;
     
     }
@@ -439,6 +442,9 @@ a:hover{
         height: 254px;
     }
     .more_info{
-        margin-top:900px;
+        margin-top:700px;
+    }
+    .last{
+        margin-top:30px;
     }
 }
